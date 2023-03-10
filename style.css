@@ -1,0 +1,360 @@
+*{
+    font-family: "Aaux_Pro", "Open Sans", sans-serif;
+}
+.header{
+    background-image: linear-gradient(to bottom, rgba(89, 89, 91, 0.7) 0%, rgba(33, 50, 91, 0.5) 100%), url(images/living.jpg);
+    height: 650px;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-position: top center; */
+    padding: 200px 0;
+}
+.header2{
+    height: 700px;
+    background-image: linear-gradient(to bottom, rgba(89, 89, 91, 0.7) 0%, rgba(33, 50, 91, 0.5) 100%), url(images/livo3-livingroom.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    color: beige;
+  
+    
+}
+.header2 h1{
+    font-weight: 700;
+}
+.app{
+    /* border: 2px solid wheat; */
+    /* width: 100%; */
+    height: 200px;
+}
+.app img{
+    /* width: 100%;
+    height: 80%; */
+    transition: 0.5s;
+    cursor: pointer;
+}
+.app img:hover{
+    transform: translateY(-5px);
+}
+.navbar{
+    background: #474950;
+    font-size: 1.2em;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+nav.navbar ul li.nav-item a.nav-link{
+    color: white;
+} 
+nav.navbar ul li.nav-item{
+  transition: 0.5s;
+    padding: 0px 10px;
+} 
+
+nav.navbar ul li.nav-item:hover{
+    background-color: #66686e;
+    border-radius: 10px;
+} 
+/* .dropdown{
+    width: 100%;
+} */
+li.nav-item ul.dropdown-menu{
+    /* width: 500px; */
+    background-color: rgb(148, 145, 145); 
+  
+    /* padding: 0 100%; */
+}
+.dropdown-menu .dropdown-item{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #474950;
+}
+.read-more{
+    border: 2px solid #474950 !important;
+    transition: 0.5s;
+    background-color: transparent;
+}
+.read-more:hover{
+    background-color: #66686e;
+}
+
+
+.top{
+    width: 50px;
+    height: 50px;
+    background-color: #474950;
+    box-shadow: 0 0 5px 1px gray;
+    border-radius: 50%;
+    position: sticky;
+    top: 90%;
+    left: 90%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.top:hover{
+    background-color: #66686e;
+}
+.backtotop{
+    text-decoration: none;
+}
+
+.read{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.read a{
+    text-decoration: none;
+    color: azure;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.fa-arrow-up{
+    font-size: 20px;
+    color: white;
+}
+.dropdown-menu{
+    border-radius: 0;
+}
+.tagline{
+    font-weight: 600;
+    /* text-align: center;
+    margin-top: 50px; */
+}
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+color: white;
+    /* margin-top: 150px; */
+}
+/* .hero-section h1, .hero-section h3{
+    align-self: auto;
+} */
+
+.acimage{
+    /* width: 500px; */
+    height: 400px;
+    border-bottom: 2px solid black;
+    transition: 0.5s;
+}
+.acimage:hover{
+ transform: translateY(-10px);
+ border-bottom: 1px solid black;
+}
+
+.half{
+    height: 550px;
+    background-color: rgb(226, 221, 221);
+    position: relative;
+    bottom: 400px;
+    z-index: -99;
+}
+.flagship{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.flagship-section{
+    background: linear-gradient(180deg, white, rgb(172, 169, 169));
+
+}
+.flagshipbtn{
+    padding: 10px 15px;
+    border: 1px solid rgb(71, 70, 70);
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    
+}
+.flagshipbtn:hover{
+    border: 1px solid #66686e;
+    background-color: #66686e;
+   
+}
+.honors img{
+    margin: 30px 0;
+}
+
+.honors div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.honors div h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.honors div h4{
+    font-weight: 600;
+}
+.honors div p{
+    font-size: 12px;
+}
+
+
+.item{
+margin: 0 10px;
+}
+.item img{
+    height: 300px;
+
+}
+
+
+.footer{
+    background-color: rgb(59, 56, 56);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+.footerbtn ul{
+    list-style-type: none;
+}
+.footerbtn ul li a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.footerbtn ul li a:hover{
+    text-decoration: underline;
+   
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.emailbtn{
+    display: flex;
+    justify-content: center;
+}
+.emailbtn button{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+.emailbtn button:hover{
+    background-color: #66686e;
+    color: #fff;
+}
+.social ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+
+.fa-brands{
+    font-size: 30px;
+}
+.fa-brands:hover{
+   filter: grayscale(50%);
+}
+.fa-square-facebook{
+    color: #1773EA;
+}
+.fa-square-twitter{
+    color: #1C96E9;
+}
+.fa-square-whatsapp{
+    color: #54EE72;
+}
+.fa-linkedin{
+    background-color: #1773EA;
+}
+
+.dropdown-item{
+    text-transform: uppercase;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 0 5px 0 40px;
+}
+.brand-name{
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+
+.btn-submit{
+    background-color: #474950;
+    border: none;
+    color: #fff;
+}
+.btn-submit:hover{
+    color: #fff;
+    background-color: #66686e;
+}
+
+.int::before{
+    content: '70';
+    animation: int 0.8s linear 0s 1;
+}
+@keyframes int {
+    0%{content: '0';}
+    20%{content: '10';}
+    30%{content: '15';}
+    40%{content: '25';}
+    50%{content: '30';}
+    60%{content: '40';}
+    70%{content: '50';}
+    80%{content: '60';}
+    90%{content: '65';}
+    100%{content: '70';}
+    }
+.patents::before{
+    content: '250';
+    animation: pnt 1.3s linear 0s 1;
+}
+@keyframes pnt {
+    0%{content: '0';}
+    20%{content: '30';}
+    30%{content: '60';}
+    40%{content: '90';}
+    50%{content: '130';}
+    60%{content: '170';}
+    70%{content: '200';}
+    80%{content: '220';}
+    90%{content: '235';}
+    100%{content: '250';}
+    }
+.award::before{
+    content: '150';
+    animation: awd 1s linear 0s 1;
+}
+@keyframes awd {
+    0%{content: '0';}
+    20%{content: '10';}
+    30%{content: '20';}
+    40%{content: '35';}
+    50%{content: '45';}
+    60%{content: '55';}
+    70%{content: '90';}
+    80%{content: '110';}
+    90%{content: '130';}
+    100%{content: '150';}
+    }
+
+    .pages a{
+        text-decoration: none;
+        color: #1C96E9;
+    }
+    .fa-thin{
+        font-size: 15px;
+    }
